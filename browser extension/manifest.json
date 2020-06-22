@@ -7,7 +7,7 @@
   "description": "Makes websites REALLY annoying!",
 
   "icons": {
-    "48": "carrot-annoyed.png"
+    "96": "carrot-annoyed.png"
   },
 
   "content_scripts": [
