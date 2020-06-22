@@ -6,12 +6,19 @@
      "128": "bad-website.png",
      "128": "carrot-annoyed.png",
    },
+
    "background": {
      "persistent": true,
-     "scripts": ["annoyify-1.0.js"]
+     "scripts": ["contentScript.js"]
    },
    "permissions": ["https://*/", "activeTab"],
    "browser_action": {
      "default_icon": "carrot-annoyed.png",
    }
+   "content_scripts": [
+  {
+    "matches": ["http://*/*"],
+    "js": ["contentScript.js"]
+  }
+],
  }
