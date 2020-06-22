@@ -4,6 +4,7 @@
    "description": "makes every website SO annoying!",
    "icons": {
      "128": "bad-website.png",
+     "128": "carrot-annoyed.png",
    },
    "background": {
      "persistent": true,
@@ -11,6 +12,6 @@
    },
    "permissions": ["https://*/", "activeTab"],
    "browser_action": {
-     "default_icon": "bad-website.png",
+     "default_icon": "carrot-annoyed.png",
    }
  }
