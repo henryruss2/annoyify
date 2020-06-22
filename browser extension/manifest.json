@@ -15,4 +15,9 @@
       "matches": ["*://*/*"],
       "js": ["contentScript.js"]
     }
+    "browser_specific_settings": {
+  "gecko": {
+    "id": "annoyify"
+  }
+}
   ]
