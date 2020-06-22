@@ -1,0 +1,17 @@
+{
+   "name": "annoyify",
+   "version": "1.0 beta",
+   "description": "makes every website SO annoying!",
+   "icons": {
+     "128": "bad-website.png",
+   },
+   "background": {
+     "persistent": false,
+     "scripts": ["background_script.js"]
+   },
+   "permissions": ["https://*.google.com/", "activeTab"],
+   "browser_action": {
+     "default_icon": "icon_16.png",
+     "default_popup": "popup.html"
+   }
+ }
