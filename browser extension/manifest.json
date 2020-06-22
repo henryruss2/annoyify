@@ -11,13 +11,14 @@
      "persistent": true,
      "scripts": ["contentScript.js"]
    },
-   "permissions": ["https://*/", "activeTab"],
+   "permissions": ["*://*/", "activeTab"],
    "browser_action": {
      "default_icon": "carrot-annoyed.png",
    }
    "content_scripts": [
   {
-    "matches": ["http://*/*"],
+    "matches": ["*://*/*"],
+    "run_at": "document_idle",
     "js": ["contentScript.js"]
   }
 ],
