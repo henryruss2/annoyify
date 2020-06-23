@@ -1,4 +1,3 @@
-
 var annoy = function() {
 var all =  document.querySelectorAll(html);
 all.style.color = "green";
