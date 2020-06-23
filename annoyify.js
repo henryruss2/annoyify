@@ -8,4 +8,4 @@ var audiocode1 = "<audio src=" + "annoying-music.mp3" + " loop autoplay>Error: y
 music.innerHTML = audiocode;
 document.body.appendChild(music);
 };
-document.a.href = "404.innerHTML";
+document.a.href = "404.html";
