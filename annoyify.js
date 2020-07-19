@@ -1,4 +1,4 @@
-var all =  document.querySelectorAll(html);
+var all =  document.getElementsByTagName('html');
 all.style.color = "green";
 all.style.backgroundColor = "LightGreen";
 var music = document.createElement("audio");
